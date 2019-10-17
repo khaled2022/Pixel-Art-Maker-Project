@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-color: #fff;
+
+}
+
+h1 {
+  font-family: Monoton;
+  font-size: 70px;
+  margin: 0.2em;
+  color: #f7600e;
+}
+
+h2 {
+  margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+  margin-top: 0.5em;
+  color: #f7600e;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+form {
+  margin:0 auto;
+  padding: 25px;
+  border:1px solid #dcdcdc;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  width: 50%;
+  height: auto;
+}
+form label {
+   color: #f7600e;
+}
+form input[type ="submit"] {
+  background-color:transparent;
+  border:1px solid #f7600e;
+  width:220px;
+  padding:10px 0;
+  border-radius: 5px;
+  margin-top:2em;
+  color:#f7600e;
+  -webkit-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+  cursor: pointer;
+}
+form input[type ="submit"]:hover {
+  background-color: #f7600e;
+  border: 1px solid #f7600e;
+  color: #fff;
+}
+form input[type ="color"] 
+{
+
+  border:none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border-radius: 10px;
+}
+input[type="number"] {
+  width: 6em;
+  outline: none;
+  padding: 5px;
+  margin-right: 4em;
+}
+
